@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bella Estética</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Expletus+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  
+  <script>
+    $(document).ready(function(){
+      $('.banner').bxSlider({
+          
+          
+ auto: true,
+ mode: 'horizontal',
+speed: 600,
+pause: 3000,
+infiniteLoop: true,
+controls:false,
+  
+      });
+        
+    });
+  </script>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <a href="index.html"><img id="logo" src="img/logo.png"></a>
+            
+               
+               <nav id="menu">
+               <a href="">Home</a>
+               <a href="">Quem Somos</a>
+               <a href="">Serviços</a>
+               <a href="">Clientes</a>
+               <a href="">Contato</a> 
+                
+                
+            </nav>
+            
+            
+            
+        </div>
+        
+       
+        
+    </header>
+    <div class="banner"> 
+    <img  src="img/banner-1.jpg">
+    <img  src="img/banner-2.jpg">
+    <img  src="img/banner-3.jpg">
+    
+    
+    </div>
+    
+    
+    <div class="container">
+        
+       <div id="caixa-relato">
+       <p class="relato">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dictum ante eu lectus gravida commodo.”</p>
+       <p class="cliente-relato">Ana Santos</p> 
+        </div>
+        
+        
+        <article id="artigo">
+        <img id="img-artigo" src="img/itens-spa.png"  alt="">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p class="texto-padrao">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <p class="texto-padrao">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</p>            
+            <a class="botao">Saiba mais</a>
+            <div class="clearfix"></div>
+        </article>
+        
+        <div id="colunas">
+            <section class="coluna">
+                <h2>Nossos Serviços</h2>
+                <img src="img/imagem-servicos.jpg">
+                <a class="botao">Saiba mais</a>
+                
+            </section>
+           
+                <section class="coluna">
+                <h2>Especial Dia da Noiva</h2>
+                <img src="img/imagem-dia-da-noiva.jpg">
+                <a class="botao">Saiba mais</a>
+            </section>
+            
+            
+            <section class="coluna">
+            <h2>Ambiente Bella Estética</h2>
+            <img src="img/imagem-ambiente.jpg">
+            <a class="botao">Saiba mais</a>          
+                
+            </section>
+            
+            
+            
+        </div>
+        
+    </div>
+    <footer id="rodape">
+        Tel: (21) 3322-4455 / 98788-5544<br>
+        Avenida Rio Branco, 185 - Sala 324 - Centro - Rio de Janeiro
+    
+    </footer>
+</body>
+</html>
