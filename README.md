@@ -1,3 +1,3 @@
 # site-espaco das mulheres
 
-estava em desenvolvimento a um tempo .
+Para aquelas mulheres que querem se sentir mais bonita, o site bela estética traz a melhor e mais bela solução para todas 
